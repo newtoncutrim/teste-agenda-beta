@@ -6,7 +6,7 @@
         </div>
         <div v-else>
           <RouterLink to="/tarefas">Home</RouterLink>
-          <RouterLink :to="{ name: 'todo.create' }">Adicionar Tarefa</RouterLink>
+          <RouterLink :to="{ name: 'todo.create' }">Adicionar</RouterLink>
         </div>
       </nav>
     </div>

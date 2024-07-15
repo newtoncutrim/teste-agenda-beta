@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="p-3">Adicionar Tarefa</h1>
+    <h1 class="p-3">Adicionar Contatos</h1>
     <form
       action="#"
       method="post"

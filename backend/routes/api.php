@@ -15,11 +15,12 @@ use App\Http\Controllers\Auth\LoginController;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::middleware(['auth'])->group(function () {
+/* Route::middleware(['auth'])->group(function () {
     Route::apiResource('contacts', ContactController::class);
     Route::post('/contacts/{id}/update', [ContactController::class, 'update'])->name('contacts.update');
-});
-
+}); */
+Route::apiResource('contacts', ContactController::class);
+Route::post('/contacts/{id}/update', [ContactController::class, 'update'])->name('contacts.update');
 
 Route::post('/contacts/login', [LoginController::class, 'login'])->name('login');
 Route::post('/contacts/register', [LoginController::class, 'register'])->name('register');
