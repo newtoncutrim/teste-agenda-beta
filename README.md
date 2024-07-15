@@ -54,3 +54,10 @@ Acesso Local
 Depois de seguir as etapas acima, você pode acessar o projeto Teste-Agenda localmente no seguinte endereço:
 
 http://localhost:3000/
+
+
+link video
+
+´´´
+https://www.loom.com/share/45306a8d9b6d475eb3831658ace5f294
+´´´
